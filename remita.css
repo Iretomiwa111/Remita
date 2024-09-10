@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bgimage{
+    background-image: url(./hero_img.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 800px;
+}
+nav{
+    background-color:transparent;
+    height: 40px;
+    padding: 20px 70px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    border: 1px solid white;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.first{
+   border-radius: 30px;
+   padding:15px 45px; 
+   border: none;
+   background-color: rgb(233,236,239);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 600;
+   font-size: 16px;
+}
+.second{
+    border-radius: 30px;
+    padding:15px 45px; 
+    border: none;
+    background-color: rgb(233,236,239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.buttons:hover{
+    background-color: white;
+}
+.nav2 a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.nav2 a:hover{
+    color: orangered;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.hover{
+    display: none;
+    position: relative;
+    left: 10px;
+    width: 30%;
+    padding: 50px;
+    background-color:rgb(236,238,241);
+
+}
+.dropdown a:hover{
+    color: orangered;
+}
+.dropdown a{
+    padding-bottom: 50px;
+}
+.inside{
+    padding-top: 30px;
+}
+.inside b:hover{
+    color: orangered;
+}
+.dropdown:hover .hover{
+    position: absolute;
+    display: block;
+    top: 90px;
+    width: 91%;
+    text-align: left;
+    background-color: rgb(236,238,241);
+}
+.ayo{
+    display: flex;
+    justify-content: space-between;
+}
+.view{
+    font-weight: 700;
+    font-size: 14px;
+}
+.account{
+    font-weight: 400;
+    font-size: 14px;
+}
+h1{
+    font-size: 50px;
+}
+.click{
+    background-color: rgb(242,101,36);
+    color: white;
+    border-radius: 30px;
+    padding:15px 85px; 
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400px;
+    font-size: 16px;
+}
+.click:hover{
+    background-color:rgb(184, 75, 25);
+}
+.biller{
+    border-radius: 30px;
+    padding:8px 170px; 
+    border: 1px solid rgb(107, 118, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

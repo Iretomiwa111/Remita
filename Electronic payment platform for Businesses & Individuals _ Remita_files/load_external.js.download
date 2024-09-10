@@ -1,0 +1,49 @@
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'UA-109989744-1');
+
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#1CA78B"
+    }
+  },
+  content: {
+    message: `Cookies are necessary for our site to work and help us ensure you have a good experience using Remita. Our <a style="color: white; text-decoration: underline" href="/legal/cookie-policy" target="_blank  rel="noopener">Cookie Policy</a> provides more information and explains how to amend your cookie settings.`,
+    link: '',
+    dismiss: 'Accept'
+  }
+});
+
+(function (w, d, s, o, f, js, fjs) {
+  w["EBANQO-WIDGET"] = o;
+  w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments); }; (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+  js.id = o;
+  js.src = f;
+  js.async = 1;
+  fjs.parentNode.insertBefore(js, fjs);
+})( window, document, "script", "ebanqo_widget", "https://widget.ebanqo.io/app.js" );
+
+ebanqo_widget("init", {
+  showChannelButtonsOnSignupForm: true,
+  buttonColor: "#178a55",
+  promptMessageDelay: 2000,
+  promptMessage: "Hi there. How may I help you today?",
+  facebook: { pageId: "1418500811770478", routeToMessenger: true, },
+  instant_chat: {
+    buttonColor: "#0C73A3",
+    logoUrl: "https://ebanqo-logos.s3.amazonaws.com/remita_header_logo.svg",
+    url: "https://webchat.ebanqo.io/remita",
+    title: "",
+    chatHeaderBackgroundColor: "#f26524",
+    chatHeaderTextColor: "#fff",
+    logoWidth: 49,
+    logoHeight: 19,
+  },
+});
